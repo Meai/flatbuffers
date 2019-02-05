@@ -117,9 +117,9 @@ bool verify(List<int> buffer) {
   var monster = new myGame.Monster(buffer);
 
   // Get and test some scalar types from the FlatBuffer.
-  assert(monster.hp == 80);
+  assert(monster.hp == 300);
   assert(monster.mana == 150); // default
-  assert(monster.name == "MyMonster");
+  assert(monster.name == "Orc");
 
   // Get and test a field of the FlatBuffer's `struct`.
   var pos = monster.pos;
